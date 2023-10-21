@@ -1,0 +1,314 @@
+
+.list {list-style-type: none;}
+
+.link 
+{text-decoration: none;}
+
+button {cursor: pointer;}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+ul,ol {
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+padding-left: 0;
+}
+.section {
+    padding-top: 120px;
+padding-bottom: 120px;
+}
+.container{
+width: 1158px;
+margin-right: auto;
+margin-left: auto;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.container-flex{
+    display:flex;
+    justify-content: space-between;
+}
+/* ===== Header ======== */
+.page-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+border-bottom: 1px solid #E7E9FC;
+}
+
+.page-navigation{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logotype{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
+
+.plane-name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.menu{
+    display: flex;
+    column-gap: 40px;
+
+}
+
+.menu-link{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: #404BBF;
+}
+
+.contact{
+    font-style: normal;
+}
+
+.contact-list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact-list-link{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.contact-list-link:hover,
+.contact-list-link:focus{
+    color: #404BBF;
+}
+
+.contact-tel-link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+/* ======/H E A D E R ========*/
+
+
+/* ===== H E R O ======*/
+.hero{
+        height: 600px;
+    background: #2E2F42;
+}
+
+.hero-title{
+    display: block;
+  margin: auto;
+  padding-top: 188px;
+  padding-bottom: 48px;
+    width: 496px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.service-btn{
+    display: block;
+    width: 169px;
+    height: 56px;
+   margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;;
+}
+
+.buttom{
+    padding: 16px 32px;
+    gap: 10px;
+}
+
+.service-btn:hover,
+.service-btn:focus {
+    background:#404BBF;
+    
+}
+/* ===== /H E R O===== */
+
+/* ====== SECTION 2 ===== */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.start-list{
+    display: flex;
+    width: calc((100%-24px)/3);
+
+}
+
+.start-list-title{
+    display: flex;
+    margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.start-list-text{
+    display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* ====== /SECTION 2 ===== */
+
+/* ====== TEAM ===== */
+.team{
+    background:#F4F4FD;
+}
+
+.team-item{
+    display: flex;
+background-color: #FFFFFF;
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+flex-wrap: wrap;
+}
+
+.team-title{
+    margin-bottom: 72px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.team-title-list{
+display: flex;
+width: calc((100%-24px)/3);
+gap: 24px;
+}
+
+.team-img-title{
+    display: flex;
+    margin-top: 32px;
+
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-img-text{
+    display: flex;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;}
+/* ====== /TEAM ===== */
+
+
+/* ====== P O R T F O L I O ===== */
+
+.portfolio-title{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.portfolio-img-title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.portfolio-img-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* ====== /P O R T F O L I O ===== */
+
+/* ====== FOOTER ===== */
+.page-footer{
+    background: #2E2F42;
+}
+
+.plane-name-sudio{
+    color: #F4F4FD;
+}
+
+.footer-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+/* ====== /FOOTER ===== */
