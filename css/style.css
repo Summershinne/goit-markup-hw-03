@@ -29,7 +29,7 @@ padding-left: 0;
 padding-bottom: 120px;
 }
 .container{
-width: 1158px;
+max-width: 1158px;
 margin-right: auto;
 margin-left: auto;
 padding-right: 15px;
@@ -42,8 +42,6 @@ padding-left: 15px;
 }
 /* ===== Header ======== */
 .page-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
 border-bottom: 1px solid #E7E9FC;
 }
 
@@ -62,6 +60,8 @@ border-bottom: 1px solid #E7E9FC;
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+   padding: 24px 0 ;
+   justify-content: space-between;
 }
 
 .plane-name{
@@ -77,6 +77,7 @@ border-bottom: 1px solid #E7E9FC;
 .menu{
     display: flex;
     column-gap: 40px;
+    
 
 }
 
@@ -86,6 +87,7 @@ border-bottom: 1px solid #E7E9FC;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -100,6 +102,7 @@ border-bottom: 1px solid #E7E9FC;
 .contact-list {
     display: flex;
     column-gap: 40px;
+    padding: 24px 0;
 }
 
 .contact-list-link{
@@ -126,15 +129,14 @@ border-bottom: 1px solid #E7E9FC;
 
 /* ===== H E R O ======*/
 .hero{
-        height: 600px;
+     padding: 188px 0;
     background: #2E2F42;
 }
 
 .hero-title{
     display: block;
   margin: auto;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
     width: 496px;
     text-align: center;
     font-size: 56px;
@@ -188,13 +190,11 @@ border-bottom: 1px solid #E7E9FC;
 
 .start-list{
     display: flex;
-    width: calc((100%-24px)/3);
-
+   column-gap: 24px;
 }
 
 .start-list-title{
-    display: flex;
-    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -203,13 +203,14 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 .start-list-text{
-    display: flex;
+        margin-top: 8px;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 /* ====== /SECTION 2 ===== */
 
 /* ====== TEAM ===== */
@@ -223,6 +224,8 @@ background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 flex-wrap: wrap;
+
+
 }
 
 .team-title{
@@ -238,15 +241,14 @@ flex-wrap: wrap;
 
 .team-title-list{
 display: flex;
-width: calc((100%-24px)/3);
+width: calc((100%-72px)/4);
 gap: 24px;
 }
 
-.team-img-title{
-    display: flex;
-    margin-top: 32px;
 
-        text-align: center;
+.team-img-title{
+    margin-bottom: 8px;
+    text-align: center;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -255,13 +257,17 @@ gap: 24px;
 }
 
 .team-img-text{
-    display: flex;
         text-align: center;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;}
+
+.text-container {
+    margin: 32px auto; 
+    
+    }
 /* ====== /TEAM ===== */
 
 
@@ -275,7 +281,24 @@ gap: 24px;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
+        margin-bottom: 72px;
 }
+
+.portfolio-title-list{
+    display: flex;
+    width: calc((100%-48px)/3);
+    flex-wrap: wrap;
+    gap: 24px;
+   
+    
+}
+
+.portfolio-container{
+    padding: 32px 16px;
+border: 1px solid #E7E9FC;
+border-top: none;
+}
+
 
 .portfolio-img-title{
         font-size: 20px;
@@ -283,6 +306,8 @@ gap: 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
+margin-left: 16px;
 }
 
 .portfolio-img-text{
@@ -291,13 +316,22 @@ gap: 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-left: 16px;
 }
 
 /* ====== /P O R T F O L I O ===== */
 
 /* ====== FOOTER ===== */
 .page-footer{
+    padding-top: 101.5px;
+    padding-bottom: 100px;
     background: #2E2F42;
+}
+
+.page-container{
+min-height: 5vh;
+display: flex;
+flex-direction: column;
 }
 
 .plane-name-sudio{
@@ -305,6 +339,7 @@ gap: 24px;
 }
 
 .footer-text{
+    width: 264px;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
