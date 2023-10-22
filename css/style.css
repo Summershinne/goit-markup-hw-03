@@ -298,10 +298,8 @@ gap: 24px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
-    gap: 24px;
-   
-    
-}
+    column-gap: 24px;
+   }
 
 .portfolio-title-item{
 width: calc((100% - 48px) / 3);
