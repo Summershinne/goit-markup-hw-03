@@ -78,7 +78,7 @@ border-bottom: 1px solid #E7E9FC;
 
 .menu{
     display: flex;
-    column-gap: 40px;
+gap: 40px;
     
 
 }
@@ -103,7 +103,7 @@ border-bottom: 1px solid #E7E9FC;
 
 .contact-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding: 24px 0;
 }
 
@@ -139,7 +139,7 @@ border-bottom: 1px solid #E7E9FC;
     display: block;
   margin: auto;
   margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -150,7 +150,7 @@ border-bottom: 1px solid #E7E9FC;
 
 .service-btn{
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
    margin: 0 auto;
     font-size: 16px;
@@ -160,7 +160,8 @@ border-bottom: 1px solid #E7E9FC;
     background: #4D5AE5;
     color: #FFFFFF;
     border-radius: 4px;
-    border: none;;
+    border: none;
+    cursor: pointer;
 }
 
 .buttom{
@@ -192,20 +193,21 @@ border-bottom: 1px solid #E7E9FC;
 
 .start-list{
     display: flex;
-   column-gap: 24px;
+   gap: 24px;
 }
 
 .start-list-title{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3*24px) / 4);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .start-list-text{
-        margin-top: 8px;
+        
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -243,7 +245,7 @@ flex-wrap: wrap;
 
 .team-title-list{
 display: flex;
-width: calc((100%-72px)/4);
+width: calc((100%-3*24px)/4);
 gap: 24px;
 }
 
@@ -267,7 +269,7 @@ gap: 24px;
         color: #434455;}
 
 .text-container {
-    margin: 32px auto; 
+    padding: 32px 0; 
     
     }
 /* ====== /TEAM ===== */
@@ -325,8 +327,7 @@ margin-left: 16px;
 
 /* ====== FOOTER ===== */
 .page-footer{
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding:100px;
     background: #2E2F42;
 }
 
@@ -341,7 +342,7 @@ flex-direction: column;
 }
 
 .footer-text{
-    width: 264px;
+    max-width: 264px;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
