@@ -196,9 +196,12 @@ gap: 40px;
    gap: 24px;
 }
 
+.start-list-item{
+width: calc((100%-72px)/4);
+}
+
 .start-list-title{
-    max-width: calc((100%-3*24px)/4);
-        font-size: 20px;
+   font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -271,6 +274,8 @@ gap: 24px;
 
 .text-container {
     padding: 32px 0; 
+    margin-right: auto;
+    margin-left: auto;
     
     }
 /* ====== /TEAM ===== */
@@ -291,12 +296,15 @@ gap: 24px;
 
 .portfolio-title-list{
     display: flex;
-    width: calc((100% - 48px) / 3);
     flex-wrap: wrap;
     row-gap: 48px;
     gap: 24px;
    
     
+}
+
+.portfolio-title-item{
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-container{
@@ -313,7 +321,6 @@ border-top: none;
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
-margin-left: 16px;
 }
 
 .portfolio-img-text{
@@ -322,7 +329,6 @@ margin-left: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-left: 16px;
 }
 
 /* ====== /P O R T F O L I O ===== */
